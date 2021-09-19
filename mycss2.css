@@ -1,0 +1,26 @@
+h1{
+    color: rgb(214, 88, 88);
+}
+h2{
+    color: cyan;
+}
+h2::first-letter{
+    color: darkgoldenrod;
+}
+h4::first-line{
+    content: url(/images/my\ i\ con.png);
+}
+a:link{
+    color: darkorchid;
+}
+a:hover
+    {
+        color: gold;
+    }
+a:visited{
+    color: hotpink;
+}
+a
+{
+    text-decoration: lawngreen;
+}
